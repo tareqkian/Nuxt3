@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  {{ _toUpper($t('welcome')) }}
+  Welcome To Auth Module Login Page
 </template>
 
 <style scoped>
