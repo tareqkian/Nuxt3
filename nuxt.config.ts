@@ -1,3 +1,5 @@
+import * as bootstrap from 'bootstrap'
+
 export default defineNuxtConfig({
   /*devtools: { enabled: true },*/
   app: {
@@ -13,6 +15,7 @@ export default defineNuxtConfig({
       script: []
     }
   },
+  css: ['bootstrap/dist/css/bootstrap.css'],
   modules: [
     '@pinia/nuxt',
     ['@nuxtjs/i18n', { /* Options */ }],
@@ -20,6 +23,6 @@ export default defineNuxtConfig({
     ['nuxt-viewport', { /* Options */ }]
   ],
   extends: [
-    '@modules/auth'
+    /* @modules */
   ]
 })
